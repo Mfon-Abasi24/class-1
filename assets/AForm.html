@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+    body{
+        width: 600px;;
+    }
+</style>
+
+</head>
+<body>
+   <form>
+    <fieldset>
+        <Legend>Your Address</Legend>
+        <label for="fn" style="display: inline-block; width: 200px;">First name: </label>
+        <input type="text" aria-rowspan="3" placeholder="First name" id="fn"> <br>
+<br>
+        <label for="ln"  style="display: inline-block; width: 200px;">Last name: </label>
+        <input type="text" placeholder="Last name" id="ln"> <br>
+<br>
+        <label for="st"  style="display: inline-block; width: 200px;">Street:</label>
+        <input type="text" placeholder="Street" id="st"> <br>
+<br>
+        <label for="Cy"  style="display: inline-block; width: 200px;">City:</label>
+        <input type="text" placeholder="City" id="Cy">
+    </fieldset> <br>
+
+<br>
+
+    <fieldset>
+        <legend>Additional Details</legend>
+        <label for="Bg"  style="display: inline-block; width: 200px;">Biography:</label>
+        <textarea style="place-content: ;"></textarea> <br>
+<br>
+        <label for="img"  style="display: inline-block; width: 200px;">Image:</label>
+        <input type="text" placeholder="Choose File" id="img" required> 
+        <span id="fileLabel">No file chosen</span> <br>
+<br>
+        <label for="Ag"  style="display: inline-block; width: 200px;">Age Group:</label>
+       
+        <select id="Ag" name="Age Group">
+            <option value="Age Group">0 to 9 Years</option>
+            <option value="o to 9 Years">0</option>
+            <option value="o to 9 Years">1</option>
+            <option value="o to 9 Years">2</option>
+            <option value="o to 9 Years">3</option>
+            <option value="o to 9 Years">4</option>
+            <option value="o to 9 Years">5</option>
+            <option value="o to 9 Years">6</option>
+            <option value="o to 9 Years">7</option>
+            <option value="o to 9 Years">8</option>
+            <option value="o to 9 Years">9</option>
+        </select>
+        
+    </fieldset> <br>
+<br>
+    <fieldset>
+        <legend>Interests</legend>
+        <label for="Int"  style="display: inline-block; width: 201px;">Hobbies:</label>
+        <textarea></textarea> <br>
+<br>
+        <Label for="FCar" style="display: inline-block; width: 200px;" >Favourite Car?</Label>
+        <select id="FCar"  name="Favourite Car?">
+            <option value="Favourite Car">Volvo</option>
+            <option value="Favourite Car">Camry</option>
+            <option value="Favourite Car">Lexus</option>
+            <option value="Favourite Car">Tesla</option>
+        </select> <br>
+<br>
+        <Label for="FPT"  style="display: inline-block; width: 200px;">Favourite Public Transport?</Label>
+        <textarea></textarea>
+
+    </fieldset>
+   </form> 
+   <input type="submit" value="Submit">
+</body>
+</html>
